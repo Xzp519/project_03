@@ -1,0 +1,72 @@
+/* 公共样式初始化 */
+div,
+html,
+body,
+p,
+span,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+input,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+input {
+  vertical-align: middle;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* 浮动 */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* 版心 */
+.w {
+  width: 1208px;
+  margin: 0 auto;
+}
